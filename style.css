@@ -90,6 +90,9 @@ label.custom-file-upload{
     font-size: 30px;
     font-family: 'Architects Daughter', cursive;
 }
+.custom-file-upload img{
+    width: 100%;
+}
 .footer{
     font-size:13px;
 }
