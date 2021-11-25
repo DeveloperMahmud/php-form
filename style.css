@@ -7,17 +7,22 @@ input,textarea{
     padding: .5em;
     border: 1px solid #FF6600;
 }
-#phn-field{
-    width: 200px;
+.iti{
+    /* width: 200px; */
+    margin-top: 20px !important; 
+}
+.iti__country-list{
+    width: 300px;
+    /* overflow-x: hidden; */
 }
 label{
     display:block;
 }
-#phn-country{
+/* #phn-country{
     margin-top: 10px;
     width: 95px;
     padding: 5px;
-}
+} */
 section{
     margin:  auto;
     margin-top:30px ;
