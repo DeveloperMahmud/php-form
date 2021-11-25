@@ -29,7 +29,7 @@ section{
     margin:  auto;
     margin-top:30px ;
     width: 370px;
-    background-color: #fff1f1;
+    background-color: #F5F5F5;
     border: 1px solid #FF6600;
 }
 .section-wrapper{
@@ -39,6 +39,7 @@ section{
     background-color: #FF6600;
     color:#F5F5F5;
     padding: 20px;
+    text-align: center;
 }
 #submit-btn{
     color: #FF6600;
@@ -47,4 +48,44 @@ section{
     width: 300px;
     padding: 15px 25px;
     font-size: 20px;
+}
+.button_slide {
+    color: #FFF;
+    border: 2px solid #FF6600;
+    border-radius: 0px;
+    padding: 18px 36px;
+    display: inline-block;
+    font-family: "Lucida Console", Monaco, monospace," roboto";
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #FF6600;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+  }
+#submit-btn:hover{
+    box-shadow: inset 400px 0 0 0 #FF6600;
+    color:#fff;
+}
+/* input[type="file"] {
+   cursor: pointer;
+} */
+.image-upload>input {
+    display: none;
+}
+label.custom-file-upload{
+    cursor: pointer;
+    /* display: inline-block; */
+}
+.half-width{
+    float:left;
+    width:40%;
+}
+.upload-guide{
+    margin-left: 60px;
+}
+.big-text{
+    font-size: 30px;
+    font-family: 'Architects Daughter', cursive;
 }
