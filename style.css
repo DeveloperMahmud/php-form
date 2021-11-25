@@ -1,0 +1,43 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+input,textarea{
+    width: 300px;
+    margin: 10px 20px 0 0;
+    padding: .5em;
+    border: 1px solid #FF6600;
+}
+#phn-field{
+    width: 200px;
+}
+label{
+    display:block;
+}
+#phn-country{
+    margin-top: 10px;
+    width: 95px;
+    padding: 5px;
+}
+section{
+    margin:  auto;
+    margin-top:30px ;
+    width: 400px;
+    background-color: #fff1f1;
+    border: 1px solid #FF6600;
+}
+.section-wrapper{
+    padding:30px;
+}
+.header-area{
+    background-color: #FF6600;
+    color:#F5F5F5;
+    padding: 20px;
+}
+#submit-btn{
+    color: #FF6600;
+    background-color: #fff;
+    border: 1px solid #FF6600;
+    width: 300px;
+    padding: 15px 25px;
+    font-size: 20px;
+}
