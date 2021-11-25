@@ -7,6 +7,7 @@ input,textarea{
     padding: .5em;
     border: 1px solid #FF6600;
 }
+/* cdn class customizing */
 .iti{
     /* width: 200px; */
     margin-top: 20px !important; 
@@ -15,6 +16,7 @@ input,textarea{
     width: 300px;
     /* overflow-x: hidden; */
 }
+/* end of cdn customizing */
 label{
     display:block;
 }
@@ -26,7 +28,7 @@ label{
 section{
     margin:  auto;
     margin-top:30px ;
-    width: 400px;
+    width: 370px;
     background-color: #fff1f1;
     border: 1px solid #FF6600;
 }

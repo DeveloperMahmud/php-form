@@ -27,13 +27,13 @@
 					<form class="contact-form" id="usrform" action="mail.php" method="POST">
 						<input type="text" name="name" placeholder="Name">
 						<br>
-						<input type="mail" name="mail" placeholder="Email">
+						<input type="email" name="mail" placeholder="Email">
 						<br>
-						<input name="phone" type="text" id="phone" placeholder="Phone"/> 
+						<input name="phone" type="tel" id="phone" placeholder="Phone xxx-xxx-xxx"
+						pattern="\d{3}-\d{3}-\d{4}$"
+						/> 
 						<br>
-						<textarea rows="10" placeholder="Write requirements" name="comment" form="usrform">
-							
-						</textarea>
+						<textarea rows="10" placeholder="Write Requirements" name="comment" form="usrform">Write Requirements...</textarea>
 						<br>
 					</form>
 				</div>
